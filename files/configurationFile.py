@@ -3,8 +3,8 @@
 class Configurations:
 	#db configuration
 	userName = 'root'#user name for database
-	password = 'rmtdl0680036'
-	hostIP ='127.0.0.1'
+	password = 'rmtdl0680036' # password for database
+	hostIP ='127.0.0.1' #IP in my case its locally hosted
 	databaseName = 'twitterdata'
 	raise_on_warnings = True
 
@@ -19,12 +19,13 @@ class Configurations:
 		# return db configuration
 		return self.dbconfig
 
-
+	# to get api key you first need to set your app
+	# for more https://apps.twitter.com/app/new
 	#twitter api configuration
-	consumer_key = "Hol90i780joDoqDzWS32tR2cn"
-	consumer_secret = "wIPsoeGyHbqfmHNcCdATs8GOlPOx9HeU5OlekcGm6D2TtHyUPk"
-	access_token = "249152008-zYoxFHAVeDzlWNasuaqxOXBOZpihHCYxi0frmChO"
-	access_token_secret = "qBTozbbXA10mdI57sEhOoiYrIE18E2GHg8qCwKnkjNZYl"
+	consumer_key = "XXXXXXXX"
+	consumer_secret = "XXXXXXXXXXXXXXXXXXX"
+	access_token = "2XXXXXXXXXXXXXXXxO"
+	access_token_secret = "qXXXXXXXXXXXXXXXXXXXYl"
 	twitter_config = consumer_key,consumer_secret,access_token,access_token_secret
 
 	def twitterApiConfig(self):
