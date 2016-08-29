@@ -4,7 +4,12 @@ twitterFeedExtractor is general purpose library to extract twitter feed and stor
 Requirement:
 
 Python 2.7X
-Database mySql
+
+Database mySql/
+
 Python Module Needed-
+
 1. Mysql connector for python
-2. tweepy
+
+2. tweepy - for twitter API
+
