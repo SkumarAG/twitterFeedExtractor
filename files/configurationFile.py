@@ -3,7 +3,7 @@
 class Configurations:
 	#db configuration
 	userName = 'root'#user name for database
-	password = 'rmtdl0680036' # password for database
+	password = 'XXXXXXX' # password for database
 	hostIP ='127.0.0.1' #IP in my case its locally hosted
 	databaseName = 'twitterdata'
 	raise_on_warnings = True
