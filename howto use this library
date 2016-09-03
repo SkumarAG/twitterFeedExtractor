@@ -1,0 +1,9 @@
+1. Fisrt you need to install mysql database
+https://dev.mysql.com/downloads/windows/
+
+2. Second mysql python connector is needed. 
+you can download it from here - https://dev.mysql.com/downloads/connector/python/
+
+3. Assuming you have python version 2.7xx, tweepy also needed for accessing twitter api
+for more info visit - http://www.tweepy.org/
+
