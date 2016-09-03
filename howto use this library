@@ -7,3 +7,14 @@ you can download it from here - https://dev.mysql.com/downloads/connector/python
 3. Assuming you have python version 2.7xx, tweepy also needed for accessing twitter api
 for more info visit - http://www.tweepy.org/
 
+Once all installation is done, you need to execute the SQL codes to build tweeter feed database. Code is inside the database 
+folder under db.sql name.
+
+Now API keys also needed to access twitter API. Get those here - https://apps.twitter.com/app/new
+
+Once you have those keys, go to the configuration file under the name configurationFile.py and change the db and twitter API 
+configurations
+
+Now every this is set.
+
+Got to main.py file and supply the desired twitter account id and run you program.
