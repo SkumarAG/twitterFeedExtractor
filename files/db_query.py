@@ -35,7 +35,7 @@ def mostRecentTweetId(twitter_id):
         else:
             print "No archive tweets available in Database"
             since_id = 700000000000000000 # Initilization number to get started
-            print(since_id) 
+            #print(since_id) 
     except Error as error:
         print "Error occour"
         print(error)    
@@ -46,7 +46,7 @@ def mostRecentTweetId(twitter_id):
     
 def saveTweets(twitter_id,numbr_of_tweets):
     since_id = mostRecentTweetId(twitter_id)
-    print "Last Tweet ID is %s",since_id
+    #print "Last Tweet ID is %s",since_id
     consumer_key ,consumer_secret,access_token,access_token_secret= config.twitterApiConfig()
     tweets = twitterData(consumer_key,consumer_secret,access_token,access_token_secret,twitter_id,numbr_of_tweets,since_id)
     if(tweets):
@@ -59,13 +59,13 @@ def saveTweets(twitter_id,numbr_of_tweets):
                 cursor.execute(saveTweetsQery(), tweet_data)
         	   #to make sure data is committed to DB
                 cnx.commit()
-                print(".")
+                print ".",
             except Error as error:
-                print "Error occour"
-                print(error)
+                a = error
             finally:
                 cursor.close()
                 cnx.close()
+        print"Tweets Saved"
     else:
     	print"No relevant tweeter feed"
 
