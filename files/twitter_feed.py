@@ -65,10 +65,10 @@ def tweetData(tweet):
                      language,location,screen_name,followers_count,friends_count,time_zone)
 
 if __name__ == "__main__":
-	consumer_key = "Hol90i780joDoqDzWS32tR2cn"
-	consumer_secret = "wIPsoeGyHbqfmHNcCdATs8GOlPOx9HeU5OlekcGm6D2TtHyUPk"
-	access_token = "249152008-zYoxFHAVeDzlWNasuaqxOXBOZpihHCYxi0frmChO"
-	access_token_secret = "qBTozbbXA10mdI57sEhOoiYrIE18E2GHg8qCwKnkjNZYl"
+	consumer_key = "HXXXXXXXXXXXXXXXXn"
+	consumer_secret = "wXXXXXXXXXXXXXXXXXXxk"
+	access_token = "2XXXXXXXXXXXXXXXXXXXXXXXXhO"
+	access_token_secret = "qXXXXXXXXXXxZYl"
 	twitter_id = "@TrafflineDEL"
 	numbr_of_tweets = 100
 	twitter_data(consumer_key,consumer_secret,access_token,access_token_secret,twitter_id,numbr_of_tweets)
