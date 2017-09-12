@@ -5,7 +5,7 @@ class Configurations:
 	userName = 'root'#user name for database
 	password = 'XXXXXXX' # password for database
 	hostIP ='127.0.0.1' #IP in my case its locally hosted
-	databaseName = 'twitterdata'
+	databaseName = 'twitterdata'#
 	raise_on_warnings = True
 
 	dbconfig = {
